@@ -7,5 +7,65 @@
 }
 
 body{
+    width: 1200px;
+    margin: auto;
     font-family: 'Montserrat', sans-serif;
+    background-color: hsl(358, 77%, 19%);
+    color: white;
 }
+a{
+    text-decoration: none;
+}
+
+header{
+    height: 104px;
+    background-color: hsl(359, 58%, 39%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Logo empresa */
+    header a img{
+        margin-left: 16px;
+    }
+/* Barra de navegación */
+    header nav a{
+        color: #fff;
+        font-size: 18px;
+        padding: 16px;
+    }
+
+main{
+    min-height: 784px; 
+    background-color: hsl(360, 58%, 56%);
+}
+
+
+
+footer{
+    height: 216px;
+    background-color: hsl(358, 76%, 8%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* social media */
+    footer nav a{
+        padding: 12px;
+    }
+/* teléfono */    
+    footer div a{
+        width: 294px;
+        display: flex;
+        align-items: center;
+        font-size: 24px;
+        color: white;
+    }
+    footer div a span{
+        width: 164px;
+    }
+    #nro{
+        width: 164px;
+        display: block;
+        font-size: 32px;
+    }
